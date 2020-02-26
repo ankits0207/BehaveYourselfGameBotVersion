@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BehaveYourself.Master.cs" Inherits="BehaveYourself.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            font-family: Georgia;
+            font-size: x-large;
+            color: #FFFF99;
+            text-align: center;
+        }
+        .auto-style2 {
+            text-align: center;
+        }
+        .auto-style3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+            color: #FFFF99;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table style="width:100%;">
+            <tr>
+                <td class="auto-style2" style="background-color: #666633"><strong><em><span class="auto-style1">Behave Yourself !</span><br class="auto-style1" />
+                    </em><span class="auto-style1"><em>Re.fresh - 2020</em></span></strong></td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="MyContentPlaceholder" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3" style="background-color: #666633">Tata Consultancy Services</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
